@@ -1,12 +1,13 @@
 # -*- coding: utf-8 -*-
-#Chuyển đổi mã font TCVN3, VNI-Windows sang Unicode và ngược lại,
-#chuyển sang chữ hoa, chữ thường, dạng Camel Case, không dấu. 
+#Công cụ chuyển đổi mã font cho shapefile/ Geodatabase: TCVN3, VNI-Windows sang Unicode và ngược lại,
+#chuyển sang chữ hoa, chữ thường, dạng Camel Case, không dấu.#
 #
 #Phát triển bởi: 
-#Quách Đồng Thắng (vnosgis.vn), Trung tâm Ứng dụng GIS Tp.HCM (hcmgisportal.vn). 
+#Quách Đồng Thắng (vnosgis.blogspot.com), Trung tâm Ứng dụng GIS Tp.HCM (hcmgisportal.vn). 
 #
 #Trên cở sở tham khảo mã nguồn của:
 #Ninomax - thanhlv@oucru.org, Mapping team - The Oxford University Clinical Research Unit, Ha Noi
+
 
 import arcgisscripting
 gp = arcgisscripting.create(9.3)
